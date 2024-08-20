@@ -42,8 +42,8 @@ Avant de commencer, assurez-vous d'avoir respecté les prérequis suivants :
 2. **Configurer un environnement virtuel :**
 
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # Sur Windows utilisez `venv\Scripts\activate`
+    python -m venv venv
+    venv\Scripts\activate  # Sur linux\macOs utilisez `source venv/bin/activate`
     ```
 
 3. **Installer les paquets requis :**
