@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>BCEM240820000023</MsgId>
+			<CreDtTm>2024-08-20T07:23:46Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<TtlIntrBkSttlmAmt Ccy="MRU">55.0</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2024-08-20</IntrBkSttlmDt>
+			<SttlmInf>
+				<SttlmMtd>CLRG</SttlmMtd>
+				<ClrSys>
+					<Prtry>ACH</Prtry>
+				</ClrSys>
+			</SttlmInf>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>BCEM240820000023</InstrId>
+				<EndToEndId>BCEM240820000023</EndToEndId>
+				<TxId>BCEM240820000023</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">55</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Emily Smith</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>MTZP53450793973880</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>Compte de conformité</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>3003100</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Word significant.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>

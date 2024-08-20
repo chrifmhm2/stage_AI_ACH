@@ -2,11 +2,11 @@
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<FIToFICstmrCdtTrf>
 		<GrpHdr>
-			<MsgId>AMDH240708000085</MsgId>
-			<CreDtTm>2024-07-08T13:44:14Z</CreDtTm>
-			<NbOfTxs>19</NbOfTxs>
-			<TtlIntrBkSttlmAmt Ccy="MRU">904896</TtlIntrBkSttlmAmt>
-			<IntrBkSttlmDt>2024-07-08</IntrBkSttlmDt>
+			<MsgId>COLI240709000085</MsgId>
+			<CreDtTm>2024-07-09T19:56:51Z</CreDtTm>
+			<NbOfTxs>20</NbOfTxs>
+			<TtlIntrBkSttlmAmt Ccy="MRU">1101566</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2024-07-09</IntrBkSttlmDt>
 			<SttlmInf>
 				<SttlmMtd>CLRG</SttlmMtd>
 				<ClrSys>
@@ -15,15 +15,15 @@
 			</SttlmInf>
 			<InstgAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</InstgAgt>
 		</GrpHdr>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000836</InstrId>
-				<EndToEndId>AMDH24070800000836</EndToEndId>
-				<TxId>AMDH24070800000836</TxId>
+				<InstrId>COLI24070900000790</InstrId>
+				<EndToEndId>COLI24070900000790</EndToEndId>
+				<TxId>COLI24070900000790</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -36,21 +36,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">88811</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">46943</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Angelica Cook</Nm>
+				<Nm>Rebecca Jones</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>RSXQ53494907035677</Id>
+						<Id>DCHR16825230290840</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -59,12 +59,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300213053</Nm>
+				<Nm>00001000010000321300368</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -72,14 +72,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Finish edge child.</Ustrd>
+				<Ustrd>Reality in who.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000837</InstrId>
-				<EndToEndId>AMDH24070800000837</EndToEndId>
-				<TxId>AMDH24070800000837</TxId>
+				<InstrId>COLI24070900000791</InstrId>
+				<EndToEndId>COLI24070900000791</EndToEndId>
+				<TxId>COLI24070900000791</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -92,21 +92,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">31869</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">54784</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Christina Gonzalez</Nm>
+				<Nm>John Murillo</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>KPTC11664944166590</Id>
+						<Id>OPVS50651567946285</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -115,12 +115,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300117993</Nm>
+				<Nm>00001000010000300128275</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -128,14 +128,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Certainly since by.</Ustrd>
+				<Ustrd>Control explain.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000838</InstrId>
-				<EndToEndId>AMDH24070800000838</EndToEndId>
-				<TxId>AMDH24070800000838</TxId>
+				<InstrId>COLI24070900000792</InstrId>
+				<EndToEndId>COLI24070900000792</EndToEndId>
+				<TxId>COLI24070900000792</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -148,21 +148,693 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">56211</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">85156</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Edward Lopez</Nm>
+				<Nm>Steven Figueroa</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>KDIA20183075855803</Id>
+						<Id>ZMHO51493393192092</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000321302696</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>U</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Entire be middle.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000793</InstrId>
+				<EndToEndId>COLI24070900000793</EndToEndId>
+				<TxId>COLI24070900000793</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">46370</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Amy Simon</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>DTNI55228847095211</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300124783</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>R</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Every cup compare.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000794</InstrId>
+				<EndToEndId>COLI24070900000794</EndToEndId>
+				<TxId>COLI24070900000794</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">32731</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Mr. Brian Oconnor</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>XXCI68179447925414</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300173380</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>U</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Attack concern.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000795</InstrId>
+				<EndToEndId>COLI24070900000795</EndToEndId>
+				<TxId>COLI24070900000795</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">89265</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Jared Garrett MD</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>JPVK32812592861476</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300113531</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>R</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Minute half whole.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000796</InstrId>
+				<EndToEndId>COLI24070900000796</EndToEndId>
+				<TxId>COLI24070900000796</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">96312</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Tracey Martinez</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>HNNU72838464103449</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000321300174</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>R</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Language time many.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000797</InstrId>
+				<EndToEndId>COLI24070900000797</EndToEndId>
+				<TxId>COLI24070900000797</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">86696</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Shannon Reyes</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>PYPT37307451549065</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000321303472</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>M</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Morning reveal.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000798</InstrId>
+				<EndToEndId>COLI24070900000798</EndToEndId>
+				<TxId>COLI24070900000798</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">4483</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Alexandra Ramirez MD</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>TBJH27018246792790</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000321300174</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>R</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Sit education drive.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000799</InstrId>
+				<EndToEndId>COLI24070900000799</EndToEndId>
+				<TxId>COLI24070900000799</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">12765</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Natalie Adams</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>ROMO68686394538586</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000515150891</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>U</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>During chance arm.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000800</InstrId>
+				<EndToEndId>COLI24070900000800</EndToEndId>
+				<TxId>COLI24070900000800</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">35855</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Elizabeth Torres</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>PSWG89528184022199</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300113240</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>U</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Or ready dark bill.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000801</InstrId>
+				<EndToEndId>COLI24070900000801</EndToEndId>
+				<TxId>COLI24070900000801</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">98791</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Dennis Hicks</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>YLCB76866382984316</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300212568</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>M</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Head long certainly.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000802</InstrId>
+				<EndToEndId>COLI24070900000802</EndToEndId>
+				<TxId>COLI24070900000802</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">31034</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Annette Anderson</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>TSSA97321517918926</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300211016</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>R</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Assume and forward.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000803</InstrId>
+				<EndToEndId>COLI24070900000803</EndToEndId>
+				<TxId>COLI24070900000803</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">84012</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Jeffrey Miller</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>WTJQ19586096627233</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300117508</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>U</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Investment sense.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>COLI24070900000804</InstrId>
+				<EndToEndId>COLI24070900000804</EndToEndId>
+				<TxId>COLI24070900000804</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">20544</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Kelly Arnold</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>MZZF03316953677596</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -176,7 +848,7 @@
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -184,14 +856,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Material management.</Ustrd>
+				<Ustrd>State almost find.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000839</InstrId>
-				<EndToEndId>AMDH24070800000839</EndToEndId>
-				<TxId>AMDH24070800000839</TxId>
+				<InstrId>COLI24070900000805</InstrId>
+				<EndToEndId>COLI24070900000805</EndToEndId>
+				<TxId>COLI24070900000805</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -204,21 +876,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">31581</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">99383</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Lisa Fernandez</Nm>
+				<Nm>Jeffrey Nolan</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>WQDS30969437715022</Id>
+						<Id>AAQG50809030483805</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -227,12 +899,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300123619</Nm>
+				<Nm>00001000010000300129342</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>M</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -240,14 +912,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Role member woman.</Ustrd>
+				<Ustrd>Strong today too.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000840</InstrId>
-				<EndToEndId>AMDH24070800000840</EndToEndId>
-				<TxId>AMDH24070800000840</TxId>
+				<InstrId>COLI24070900000806</InstrId>
+				<EndToEndId>COLI24070900000806</EndToEndId>
+				<TxId>COLI24070900000806</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -260,21 +932,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">30829</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">52520</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Courtney Nolan</Nm>
+				<Nm>Michael Simmons</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>OLSU71721146508912</Id>
+						<Id>FVIS14133989678193</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -283,12 +955,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300210919</Nm>
+				<Nm>00001000010000300301614</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>M</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -296,14 +968,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Over go friend.</Ustrd>
+				<Ustrd>Head choice can.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000841</InstrId>
-				<EndToEndId>AMDH24070800000841</EndToEndId>
-				<TxId>AMDH24070800000841</TxId>
+				<InstrId>COLI24070900000807</InstrId>
+				<EndToEndId>COLI24070900000807</EndToEndId>
+				<TxId>COLI24070900000807</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -316,21 +988,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">12613</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">19258</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Michael Salazar</Nm>
+				<Nm>Felicia Ortiz</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>DLFW31098022334216</Id>
+						<Id>PEEB33029018224494</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -339,12 +1011,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300114889</Nm>
+				<Nm>00001000010000300118866</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -352,14 +1024,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Little ok song to.</Ustrd>
+				<Ustrd>Republican safe.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000842</InstrId>
-				<EndToEndId>AMDH24070800000842</EndToEndId>
-				<TxId>AMDH24070800000842</TxId>
+				<InstrId>COLI24070900000808</InstrId>
+				<EndToEndId>COLI24070900000808</EndToEndId>
+				<TxId>COLI24070900000808</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -372,21 +1044,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">55797</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">56926</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Paul Hill</Nm>
+				<Nm>Parker Garcia</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>KWPY83738020867705</Id>
+						<Id>GGRO68726237878119</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -395,12 +1067,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000307800393</Nm>
+				<Nm>00001000010000300126432</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -408,14 +1080,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Everything human.</Ustrd>
+				<Ustrd>Would.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>AMDH24070800000843</InstrId>
-				<EndToEndId>AMDH24070800000843</EndToEndId>
-				<TxId>AMDH24070800000843</TxId>
+				<InstrId>COLI24070900000809</InstrId>
+				<EndToEndId>COLI24070900000809</EndToEndId>
+				<TxId>COLI24070900000809</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -428,21 +1100,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">13605</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">47738</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Chris Thomas</Nm>
+				<Nm>Jeremy Green</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>UVWG91030999860620</Id>
+						<Id>IYIS02000732370174</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
+					<BICFI>COLIMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -451,12 +1123,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300110815</Nm>
+				<Nm>00001000010000300214605</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>M</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -464,623 +1136,7 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Politics few.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000844</InstrId>
-				<EndToEndId>AMDH24070800000844</EndToEndId>
-				<TxId>AMDH24070800000844</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">61112</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Kimberly King</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>VNMT59795177455225</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300137005</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Study beat force.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000845</InstrId>
-				<EndToEndId>AMDH24070800000845</EndToEndId>
-				<TxId>AMDH24070800000845</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">56523</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Ashley Lester</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>WMTG69910011728820</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300174059</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Tree laugh live.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000846</InstrId>
-				<EndToEndId>AMDH24070800000846</EndToEndId>
-				<TxId>AMDH24070800000846</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">8159</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Mark Gonzalez</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>PWUH30545112329384</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000305500523</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Successful before.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000847</InstrId>
-				<EndToEndId>AMDH24070800000847</EndToEndId>
-				<TxId>AMDH24070800000847</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">93555</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Brian Hanna</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>JZLJ16741289674026</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000321302114</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Establish thus.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000848</InstrId>
-				<EndToEndId>AMDH24070800000848</EndToEndId>
-				<TxId>AMDH24070800000848</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">65012</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Katrina Wilkins</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>AHAE67086732026253</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000321200458</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Any film sort.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000849</InstrId>
-				<EndToEndId>AMDH24070800000849</EndToEndId>
-				<TxId>AMDH24070800000849</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">36804</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Sarah Winters</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>MOPJ06470658572898</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300116247</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Age source position.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000850</InstrId>
-				<EndToEndId>AMDH24070800000850</EndToEndId>
-				<TxId>AMDH24070800000850</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">93430</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Aaron Walsh</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>ASGX97215472550170</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300116635</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Campaign likely.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000851</InstrId>
-				<EndToEndId>AMDH24070800000851</EndToEndId>
-				<TxId>AMDH24070800000851</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">74271</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Laurie Johnson</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>MOXY97047752983848</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300123328</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Bar eye pretty.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000852</InstrId>
-				<EndToEndId>AMDH24070800000852</EndToEndId>
-				<TxId>AMDH24070800000852</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">31424</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Emily Macias</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>JVWL07121557757453</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300214508</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Just more get.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000853</InstrId>
-				<EndToEndId>AMDH24070800000853</EndToEndId>
-				<TxId>AMDH24070800000853</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">32986</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>April Matthews</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>UUQJ69948758187112</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300118769</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Marriage candidate.</Ustrd>
-			</RmtInf>
-		</CdtTrfTxInf>
-		<CdtTrfTxInf>
-			<PmtId>
-				<InstrId>AMDH24070800000854</InstrId>
-				<EndToEndId>AMDH24070800000854</EndToEndId>
-				<TxId>AMDH24070800000854</TxId>
-			</PmtId>
-			<PmtTpInf>
-				<SvcLvl>
-					<Cd>SEPA</Cd>
-				</SvcLvl>
-				<LclInstrm>
-					<Cd>B2B</Cd>
-				</LclInstrm>
-				<CtgyPurp>
-					<Cd>CASH</Cd>
-				</CtgyPurp>
-			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">30304</IntrBkSttlmAmt>
-			<ChrgBr>SLEV</ChrgBr>
-			<Dbtr>
-				<Nm>Stephanie Tanner</Nm>
-			</Dbtr>
-			<DbtrAcct>
-				<Id>
-					<Othr>
-						<Id>MJJL54928162724599</Id>
-					</Othr>
-				</Id>
-			</DbtrAcct>
-			<DbtrAgt>
-				<FinInstnId>
-					<BICFI>AMDHMRMR</BICFI>
-				</FinInstnId>
-			</DbtrAgt>
-			<CdtrAgt>
-				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
-				</FinInstnId>
-			</CdtrAgt>
-			<Cdtr>
-				<Nm>00001000010000300115762</Nm>
-			</Cdtr>
-			<CdtrAcct>
-				<Id>
-					<Othr>
-						<Id>MRU</Id>
-					</Othr>
-				</Id>
-			</CdtrAcct>
-			<Purp>
-				<Cd>ADVA</Cd>
-			</Purp>
-			<RmtInf>
-				<Ustrd>Source pull rest.</Ustrd>
+				<Ustrd>From measure away.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 	</FIToFICstmrCdtTrf>

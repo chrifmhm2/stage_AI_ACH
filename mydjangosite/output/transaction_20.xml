@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>BAAW240819000020</MsgId>
+			<CreDtTm>2024-08-19T14:11:18Z</CreDtTm>
+			<NbOfTxs>2</NbOfTxs>
+			<TtlIntrBkSttlmAmt Ccy="MRU">50.0</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2024-08-19</IntrBkSttlmDt>
+			<SttlmInf>
+				<SttlmMtd>CLRG</SttlmMtd>
+				<ClrSys>
+					<Prtry>ACH</Prtry>
+				</ClrSys>
+			</SttlmInf>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BAAWMRMR</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>AMDH240819000020</InstrId>
+				<EndToEndId>AMDH240819000020</EndToEndId>
+				<TxId>AMDH240819000020</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">20</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>George Fisher</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>DJSA84444294766010</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>AMDHMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>Cpte Spécial Lig.Cd.FADES</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>1000304001</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>The dog state.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>BAAW240819000020</InstrId>
+				<EndToEndId>BAAW240819000020</EndToEndId>
+				<TxId>BAAW240819000020</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">30</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Jordan Gibbs</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>VFMQ13687562037353</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>BAAWMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>LUTTE CONTRE LA FRAUDE</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>3001149</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Arrive pattern stay.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>

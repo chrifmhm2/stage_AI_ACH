@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="{% static 'myapp/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <img src="{% static '../../static/images/home_page.jpg' %}" alt="Homepage" class="homepage-image">
+            <h1>Homepage</h1>
+        </div>
+        <a href="{% url 'generateTemplate' %}" class="button">Generate Template</a>
+    </div>
+</body>
+</html>

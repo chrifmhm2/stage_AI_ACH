@@ -2,11 +2,11 @@
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<FIToFICstmrCdtTrf>
 		<GrpHdr>
-			<MsgId>BAAW240708000099</MsgId>
-			<CreDtTm>2024-07-08T13:44:23Z</CreDtTm>
-			<NbOfTxs>7</NbOfTxs>
-			<TtlIntrBkSttlmAmt Ccy="MRU">239176</TtlIntrBkSttlmAmt>
-			<IntrBkSttlmDt>2024-07-08</IntrBkSttlmDt>
+			<MsgId>IBMR240709000099</MsgId>
+			<CreDtTm>2024-07-09T19:57:04Z</CreDtTm>
+			<NbOfTxs>8</NbOfTxs>
+			<TtlIntrBkSttlmAmt Ccy="MRU">407944</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2024-07-09</IntrBkSttlmDt>
 			<SttlmInf>
 				<SttlmMtd>CLRG</SttlmMtd>
 				<ClrSys>
@@ -15,15 +15,15 @@
 			</SttlmInf>
 			<InstgAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</InstgAgt>
 		</GrpHdr>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001027</InstrId>
-				<EndToEndId>BAAW24070800001027</EndToEndId>
-				<TxId>BAAW24070800001027</TxId>
+				<InstrId>IBMR24070900000942</InstrId>
+				<EndToEndId>IBMR24070900000942</EndToEndId>
+				<TxId>IBMR24070900000942</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -36,21 +36,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">96883</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">44526</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Nicole Brewer</Nm>
+				<Nm>Candice Burton</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>IAWB00136329645493</Id>
+						<Id>HQPR48312768141724</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -59,12 +59,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300214314</Nm>
+				<Nm>00001000010000300116247</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -72,14 +72,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Knowledge hard.</Ustrd>
+				<Ustrd>Loss change sell.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001028</InstrId>
-				<EndToEndId>BAAW24070800001028</EndToEndId>
-				<TxId>BAAW24070800001028</TxId>
+				<InstrId>IBMR24070900000943</InstrId>
+				<EndToEndId>IBMR24070900000943</EndToEndId>
+				<TxId>IBMR24070900000943</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -92,21 +92,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">13268</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">15950</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Jonathan Montes</Nm>
+				<Nm>Bernard Estes</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>KOGR28017422164227</Id>
+						<Id>WDBH80670705722730</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -115,12 +115,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000321100160</Nm>
+				<Nm>00001000010000300125171</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>M</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -128,14 +128,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Similar hope.</Ustrd>
+				<Ustrd>Wife reach history.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001029</InstrId>
-				<EndToEndId>BAAW24070800001029</EndToEndId>
-				<TxId>BAAW24070800001029</TxId>
+				<InstrId>IBMR24070900000944</InstrId>
+				<EndToEndId>IBMR24070900000944</EndToEndId>
+				<TxId>IBMR24070900000944</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -148,21 +148,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">15268</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">1951</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Emily Martin</Nm>
+				<Nm>Patrick Baker</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>CTYG15012752620976</Id>
+						<Id>QLCJ51033637614118</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -171,12 +171,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300113531</Nm>
+				<Nm>00001000010000300212762</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>M</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -184,14 +184,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Edge lose political.</Ustrd>
+				<Ustrd>Better per building.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001030</InstrId>
-				<EndToEndId>BAAW24070800001030</EndToEndId>
-				<TxId>BAAW24070800001030</TxId>
+				<InstrId>IBMR24070900000945</InstrId>
+				<EndToEndId>IBMR24070900000945</EndToEndId>
+				<TxId>IBMR24070900000945</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -204,21 +204,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">25244</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">90008</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Susan Walters</Nm>
+				<Nm>Jacqueline Ochoa</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>UGRZ77187200892064</Id>
+						<Id>RMKT43319240803723</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -227,12 +227,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000321302502</Nm>
+				<Nm>00001000010000321100936</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -240,14 +240,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Event Republican.</Ustrd>
+				<Ustrd>Run ball expect.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001031</InstrId>
-				<EndToEndId>BAAW24070800001031</EndToEndId>
-				<TxId>BAAW24070800001031</TxId>
+				<InstrId>IBMR24070900000946</InstrId>
+				<EndToEndId>IBMR24070900000946</EndToEndId>
+				<TxId>IBMR24070900000946</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -260,21 +260,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">15874</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">99930</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Paul Hughes</Nm>
+				<Nm>Todd Wells</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>TKDG12846455351124</Id>
+						<Id>YYNN37067482985573</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -283,12 +283,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300172992</Nm>
+				<Nm>00001000010000305500523</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -296,14 +296,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Travel have current.</Ustrd>
+				<Ustrd>Population least.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001032</InstrId>
-				<EndToEndId>BAAW24070800001032</EndToEndId>
-				<TxId>BAAW24070800001032</TxId>
+				<InstrId>IBMR24070900000947</InstrId>
+				<EndToEndId>IBMR24070900000947</EndToEndId>
+				<TxId>IBMR24070900000947</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -316,21 +316,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">21165</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">56539</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Tammy Martinez</Nm>
+				<Nm>Samantha Thomas</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>ZZVV01060606634375</Id>
+						<Id>XFVN58156081067371</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -339,12 +339,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300210240</Nm>
+				<Nm>00001000010000300153204</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -352,14 +352,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Main behavior goal.</Ustrd>
+				<Ustrd>Probably player.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BAAW24070800001033</InstrId>
-				<EndToEndId>BAAW24070800001033</EndToEndId>
-				<TxId>BAAW24070800001033</TxId>
+				<InstrId>IBMR24070900000948</InstrId>
+				<EndToEndId>IBMR24070900000948</EndToEndId>
+				<TxId>IBMR24070900000948</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -372,21 +372,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">51474</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">31798</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Rachel Smith</Nm>
+				<Nm>Shelley Hebert</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>BAYV17720197768901</Id>
+						<Id>SFHK19012402948869</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BAAWMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -395,12 +395,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000304201014</Nm>
+				<Nm>00001000010000300173768</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -408,7 +408,63 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Art consider.</Ustrd>
+				<Ustrd>Of to vote own.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>IBMR24070900000949</InstrId>
+				<EndToEndId>IBMR24070900000949</EndToEndId>
+				<TxId>IBMR24070900000949</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">67242</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Melissa Zamora</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>CIFO55018347553286</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>IBMRMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>00001000010000300119642</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>M</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Road arrive upon.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 	</FIToFICstmrCdtTrf>

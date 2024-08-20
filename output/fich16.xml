@@ -2,11 +2,11 @@
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<FIToFICstmrCdtTrf>
 		<GrpHdr>
-			<MsgId>BCEM240708000017</MsgId>
-			<CreDtTm>2024-07-08T13:43:24Z</CreDtTm>
+			<MsgId>IBMR240709000017</MsgId>
+			<CreDtTm>2024-07-09T19:55:57Z</CreDtTm>
 			<NbOfTxs>4</NbOfTxs>
-			<TtlIntrBkSttlmAmt Ccy="MRU">125798</TtlIntrBkSttlmAmt>
-			<IntrBkSttlmDt>2024-07-08</IntrBkSttlmDt>
+			<TtlIntrBkSttlmAmt Ccy="MRU">280876</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2024-07-09</IntrBkSttlmDt>
 			<SttlmInf>
 				<SttlmMtd>CLRG</SttlmMtd>
 				<ClrSys>
@@ -15,15 +15,15 @@
 			</SttlmInf>
 			<InstgAgt>
 				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</InstgAgt>
 		</GrpHdr>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BCEM24070800000132</InstrId>
-				<EndToEndId>BCEM24070800000132</EndToEndId>
-				<TxId>BCEM24070800000132</TxId>
+				<InstrId>IBMR24070900000157</InstrId>
+				<EndToEndId>IBMR24070900000157</EndToEndId>
+				<TxId>IBMR24070900000157</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -36,21 +36,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">49044</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">98799</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Abigail Herman</Nm>
+				<Nm>Wendy Yates</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>YYND69646900705517</Id>
+						<Id>BMTR88968423651671</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -59,12 +59,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300119448</Nm>
+				<Nm>00001000010000300122067</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -72,14 +72,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Claim occur heavy.</Ustrd>
+				<Ustrd>Level pay mention.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BCEM24070800000133</InstrId>
-				<EndToEndId>BCEM24070800000133</EndToEndId>
-				<TxId>BCEM24070800000133</TxId>
+				<InstrId>IBMR24070900000158</InstrId>
+				<EndToEndId>IBMR24070900000158</EndToEndId>
+				<TxId>IBMR24070900000158</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -92,21 +92,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">16326</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">31847</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Katherine Knox</Nm>
+				<Nm>Lisa Dudley</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>MLTG63540650027998</Id>
+						<Id>OTCR06917002395307</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -115,12 +115,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000321300853</Nm>
+				<Nm>00001000010000300310150</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -128,14 +128,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Behind baby.</Ustrd>
+				<Ustrd>Financial hospital.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BCEM24070800000134</InstrId>
-				<EndToEndId>BCEM24070800000134</EndToEndId>
-				<TxId>BCEM24070800000134</TxId>
+				<InstrId>IBMR24070900000159</InstrId>
+				<EndToEndId>IBMR24070900000159</EndToEndId>
+				<TxId>IBMR24070900000159</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -148,21 +148,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">10671</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">87272</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Sabrina Reynolds</Nm>
+				<Nm>Anthony Nichols</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>IZGU34213400900262</Id>
+						<Id>CWHV30946233541298</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -171,12 +171,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300118866</Nm>
+				<Nm>00001000010000300123328</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>U</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -184,14 +184,14 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Fine check fine.</Ustrd>
+				<Ustrd>Thought analysis.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 		<CdtTrfTxInf>
 			<PmtId>
-				<InstrId>BCEM24070800000135</InstrId>
-				<EndToEndId>BCEM24070800000135</EndToEndId>
-				<TxId>BCEM24070800000135</TxId>
+				<InstrId>IBMR24070900000160</InstrId>
+				<EndToEndId>IBMR24070900000160</EndToEndId>
+				<TxId>IBMR24070900000160</TxId>
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
@@ -204,21 +204,21 @@
 					<Cd>CASH</Cd>
 				</CtgyPurp>
 			</PmtTpInf>
-			<IntrBkSttlmAmt Ccy="MRU">49757</IntrBkSttlmAmt>
+			<IntrBkSttlmAmt Ccy="MRU">62958</IntrBkSttlmAmt>
 			<ChrgBr>SLEV</ChrgBr>
 			<Dbtr>
-				<Nm>Samuel Payne</Nm>
+				<Nm>Carrie Moody</Nm>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
 					<Othr>
-						<Id>JFGO41261164703128</Id>
+						<Id>FKNS25803567259248</Id>
 					</Othr>
 				</Id>
 			</DbtrAcct>
 			<DbtrAgt>
 				<FinInstnId>
-					<BICFI>BCEMMRMR</BICFI>
+					<BICFI>IBMRMRMR</BICFI>
 				</FinInstnId>
 			</DbtrAgt>
 			<CdtrAgt>
@@ -227,12 +227,12 @@
 				</FinInstnId>
 			</CdtrAgt>
 			<Cdtr>
-				<Nm>00001000010000300129051</Nm>
+				<Nm>00001000010000300154077</Nm>
 			</Cdtr>
 			<CdtrAcct>
 				<Id>
 					<Othr>
-						<Id>MRU</Id>
+						<Id>R</Id>
 					</Othr>
 				</Id>
 			</CdtrAcct>
@@ -240,7 +240,7 @@
 				<Cd>ADVA</Cd>
 			</Purp>
 			<RmtInf>
-				<Ustrd>Hit population.</Ustrd>
+				<Ustrd>Present ability.</Ustrd>
 			</RmtInf>
 		</CdtTrfTxInf>
 	</FIToFICstmrCdtTrf>

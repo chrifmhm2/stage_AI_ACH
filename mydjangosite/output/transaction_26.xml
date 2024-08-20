@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>BQMI240820000026</MsgId>
+			<CreDtTm>2024-08-20T08:28:56Z</CreDtTm>
+			<NbOfTxs>2</NbOfTxs>
+			<TtlIntrBkSttlmAmt Ccy="MRU">187.0</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2024-08-20</IntrBkSttlmDt>
+			<SttlmInf>
+				<SttlmMtd>CLRG</SttlmMtd>
+				<ClrSys>
+					<Prtry>ACH</Prtry>
+				</ClrSys>
+			</SttlmInf>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BQMIMRMR</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>BIIM240820000026</InstrId>
+				<EndToEndId>BIIM240820000026</EndToEndId>
+				<TxId>BIIM240820000026</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">88</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Tammy Cardenas</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>DFHH37787705317007</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>BIIMMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>Compte Unique du Trésor à la BCM</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>00001000010000321000056</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Machine police.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>BQMI240820000026</InstrId>
+				<EndToEndId>BQMI240820000026</EndToEndId>
+				<TxId>BQMI240820000026</TxId>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>B2B</Cd>
+				</LclInstrm>
+				<CtgyPurp>
+					<Cd>CASH</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="MRU">99</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Tammy Strickland</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>LTIC66034419457089</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>BQMIMRMR</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>BCEMMRMR</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>RCR pour le personnel admis à la retraite au 31-12-2017</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>3078002</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<Purp>
+				<Cd>ADVA</Cd>
+			</Purp>
+			<RmtInf>
+				<Ustrd>Talk movement bed.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>

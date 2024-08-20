@@ -4,7 +4,7 @@ import xmlschema
 import xmltodict
 from pprint import pprint
 
-SCHEMA_PAC8 = 'doc_xsd/pacs.008.001.07.xsd'
+SCHEMA_PAC8 = 'myapp/pacs.008.001.07.xsd'
 # décodage 
 schema = xmlschema.XMLSchema(SCHEMA_PAC8)
 
@@ -32,18 +32,6 @@ def vailde_xml(file) :
         return False
     
 
-    
-
-# file = 'output/fich0.xml'   
-# int = vailde_xml(file)
-
-
-
-
-# if __name__ == '__main___' :
-
-#     file = 'output/fich0.xml'   
-#     int = vailde_xml(file)
 
 # Chemin vers le répertoire contenant les fichiers XML à valider
 directory_path = 'output'

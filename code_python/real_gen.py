@@ -98,6 +98,8 @@ def lire_Cdtr(fichier):
 
             # Ajouter au dictionnaire
             Cdtr[nom] = numero_compte
+            # Cdtr[nom] = list(ligne[0], ligne[1], ligne[4], ligne[5])
+            
 
 
     return Cdtr
@@ -118,8 +120,8 @@ banks_names = list(bank_data.keys())
 accounts_path = 'dat/accounts.tsv'
 accounts_data = lire_Cdtr(accounts_path)
 counts_name = list(accounts_data.keys())
-premier_compte = counts_name[0]
-print("le nom du compte : " +premier_compte, "id compte : " + accounts_data[premier_compte])
+# premier_compte = counts_name[0]
+# print("le nom du compte : " +premier_compte, "id compte : " + accounts_data[premier_compte])
 
 
 def gen_msg_id(bic: str):
@@ -188,6 +190,8 @@ def add_tx(bank_name, credit_template, montant):
     
     credit_template['IntrBkSttlmAmt']['$'] = IntrBkSttlmAmt
 
+
+    # dbtr fake
     fake = Faker()
     name = fake.name()
     credit_template['Dbtr']['Nm'] = name
@@ -198,11 +202,17 @@ def add_tx(bank_name, credit_template, montant):
     credit_template['DbtrAgt']['FinInstnId']['BICFI'] = bank_bic
 
 
-    # Cdtr_nm = fake.name()
-    # Cdtr_id = fake.ide()
+
+    # à recuperer et remplir
+
     accounts_name = str(random.choice(counts_name))
     credit_template['Cdtr']['Nm'] = accounts_name  
-    credit_template['CdtrAcct']['Id']['Othr']['Id'] =  accounts_data[accounts_name]
+
+    # id à choisr parmiles ids de accounts_name
+    credit_template['CdtrAcct']['Id']['Othr']['Id'] = random.choice(accounts_data[accounts_name])
+
+
+    
     credit_template['RmtInf']['Ustrd'] = fake.text(max_nb_chars=20)
 
 
